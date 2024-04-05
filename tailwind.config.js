@@ -7,6 +7,9 @@ export default {
   theme: {
     extend: {
       colors: {
+        gray: {
+          200: "#EAECF0",
+        },
         color: {
           1: "#AC6AFF",
           2: "#FFC876",
@@ -47,9 +50,10 @@ export default {
         7.5: "1.875rem",
         15: "3.75rem",
       },
-      opacity: {
-        15: ".15",
-      },
+      // opacity: {
+      //   15: ".15",
+      // },
+      opacity: { 0.3: 0.3, 0.15: 0.15 },
       transitionDuration: {
         DEFAULT: "200ms",
       },
@@ -68,6 +72,12 @@ export default {
       },
       backgroundImage: {
         "radial-gradient": "radial-gradient(var(--tw-gradient-stops))",
+        gradient: "radial-gradient(179deg, #0c132233,#03344e33)",
+        gradient1: "radial-gradient(180deg, #0f182c33,#0c6deb33,#9dcaff33)",
+        gradient2: "linear-gradient(90deg, #f4f4f433,#ffffff,#ffffff33)",
+        gradient3: "linear-gradient(90deg, #9254de,#e7d3ffaa)",
+        gradient4: "linear-gradient(90deg, #f19e38,#ffdaad)",
+        gradient5: "linear-gradient(90deg, #40a9ff,#8eccff)",
         "conic-gradient":
           "conic-gradient(from 225deg, #FFC876, #79FFF7, #9F53FF, #FF98E2, #FFC876)",
       },

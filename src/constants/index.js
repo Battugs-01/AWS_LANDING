@@ -36,38 +36,77 @@ import {
   yourlogo,
 } from "../assets";
 
+// export const navigation = [
+//   {
+//     id: "0",
+//     title: "Features",
+//     url: "#features",
+//   },
+//   {
+//     id: "1",
+//     title: "Pricing",
+//     url: "#pricing",
+//   },
+//   {
+//     id: "2",
+//     title: "How to use",
+//     url: "#how-to-use",
+//   },
+//   {
+//     id: "3",
+//     title: "Roadmap",
+//     url: "#roadmap",
+//   },
+//   {
+//     id: "4",
+//     title: "New account",
+//     url: "#signup",
+//     onlyMobile: true,
+//   },
+//   {
+//     id: "5",
+//     title: "Sign in",
+//     url: "#login",
+//     onlyMobile: true,
+//   },
+// ];
+
 export const navigation = [
   {
     id: "0",
-    title: "Features",
-    url: "#features",
+    title: "Home",
+    url: "#home",
   },
   {
     id: "1",
-    title: "Pricing",
-    url: "#pricing",
+    title: "About",
+    url: "#about",
   },
   {
     id: "2",
-    title: "How to use",
-    url: "#how-to-use",
+    title: "Speakers",
+    url: "#speakers",
   },
   {
     id: "3",
-    title: "Roadmap",
-    url: "#roadmap",
+    title: "Organizing team",
+    // url: "#org_team",
+    url: "#how-to-use",
   },
   {
     id: "4",
-    title: "New account",
-    url: "#signup",
-    onlyMobile: true,
+    title: "Schudules",
+    url: "#schudules",
   },
   {
     id: "5",
-    title: "Sign in",
-    url: "#login",
-    onlyMobile: true,
+    title: "Sponsors",
+    url: "#sponsors",
+  },
+  {
+    id: "6",
+    title: "FAQ",
+    url: "#faq",
   },
 ];
 
