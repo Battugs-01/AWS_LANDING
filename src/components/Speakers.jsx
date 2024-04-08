@@ -1,20 +1,26 @@
-import { benefits } from "../constants";
-import Heading from "./Heading";
 import Section from "./Section";
-import Arrow from "../assets/svg/Arrow";
-import { GradientLight } from "./design/Benefits";
-import ClipPath from "../assets/svg/ClipPath";
 
-const Benefits = () => {
+const Speakers = () => {
   return (
-    <Section id="features">
-      <div className="container relative z-2">
-        <Heading
-          className="md:max-w-md lg:max-w-2xl"
-          title="Chat Smarter, Not Harder with Brainwave"
-        />
-
-        <div className="flex flex-wrap gap-10 mb-10">
+    <Section id="speakers" className={"mt-10"}>
+      <div className="mx-10 relative z-2">
+        <div className="flex flex-col items-center gap-4 self-stretch md:px-5">
+          <p className="text-[64px] bg-gradient2 bg-clip-text text-center !font-rockwell leading-[120%] !text-transparent">
+            Speakers
+          </p>
+          <p className="text-center leading-[150%] text-[24px] md:w-4/5 lg:w-4/6 w-full">
+            <span className="text-[#EAECF0]">Join the second&nbsp;</span>
+            <span className="text-[#F19E38]">
+              AWS Community Day in Ulaanbaatar!&nbsp;
+            </span>
+            <span className="text-[#EAECF0]">
+              Engage with cloud experts, explore advanced topics, and network
+              with like-minded individuals. Enhance your cloud skills at this
+              special event!
+            </span>
+          </p>
+        </div>
+        {/* <div className="flex flex-wrap gap-10 mb-10">
           {benefits.map((item) => (
             <div
               className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
@@ -62,10 +68,10 @@ const Benefits = () => {
               <ClipPath />
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </Section>
   );
 };
 
-export default Benefits;
+export default Speakers;

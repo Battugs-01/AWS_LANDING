@@ -72,7 +72,8 @@ export default {
       },
       backgroundImage: {
         "radial-gradient": "radial-gradient(var(--tw-gradient-stops))",
-        gradient: "radial-gradient(179deg, #0c132233,#03344e33)",
+        // "linear-gradient": "linear-gradient(var(--tw-gradient-stops))",
+        gradient: "linear-gradient(179deg, #0c132233,#03344e33)",
         gradient1: "radial-gradient(180deg, #0f182c33,#0c6deb33,#9dcaff33)",
         gradient2: "linear-gradient(90deg, #f4f4f433,#ffffff,#ffffff33)",
         gradient3: "linear-gradient(90deg, #9254de,#e7d3ffaa)",

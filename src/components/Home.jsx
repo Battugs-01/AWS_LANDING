@@ -13,7 +13,6 @@ const Home = () => {
     <div>
       <Section
         className="pt-[10rem] -mt-[5.25rem]"
-        crosses
         crossesOffset="lg:translate-y-[5.25rem]"
         customPaddings
         id="home"
