@@ -3,6 +3,8 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 import Speakers from "./components/Speakers";
 import About from "./components/about";
+import FAQ from "./components/faq";
+import Schedules from "./components/schedule";
 
 const App = () => {
   return (
@@ -12,6 +14,8 @@ const App = () => {
         <Home />
         <About />
         <Speakers />
+        <Schedules />
+        <FAQ />
       </div>
 
       <ButtonGradient />

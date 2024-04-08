@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap");
+@import "leaflet/dist/leaflet.css";
 
 @tailwind base;
 @tailwind components;
@@ -85,4 +86,45 @@
 
 .-rotate-360 {
   @apply rotate-[-360deg]
+}
+
+.marker_icon {
+  width: 0 !important;
+  height: 45px !important;
+}
+
+.marker_icon::after {
+  content: '';
+  width: 14px;
+  height: 14px;
+  top: -23px;
+  left: 6px;
+  position: absolute;
+  background: #e6e6e6;
+  transform: translate(-50%);
+  border-radius: 50%;
+}
+
+.marker_icon::before {
+  content: '';
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 50% 50% 50% 0%;
+  position: absolute;
+  background: inherit;
+  top: -41px;
+  left: 1px;
+  transform: rotate(-45deg) translate(-50%);
+}
+
+.marker_color_red {
+  background-color: red;
+}
+
+.marker_color_blue {
+  background-color: blue;
+}
+
+.marker_color_green {
+  background-color: green;
 }
