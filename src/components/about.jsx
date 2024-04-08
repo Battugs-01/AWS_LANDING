@@ -29,7 +29,12 @@ const About = () => {
               the capital city of Ulaanbaatar.
             </p>
           </div>
-          <div className="leading-[150%]  md:w-full h-[700px] rounded-bl-[32px] rounded-br-[32px]">
+          <div
+            className="leading-[150%]  md:w-full h-[700px] rounded-bl-[32px] rounded-br-[32px]"
+            style={{
+              borderRadius: "0 0 32px 32px",
+            }}
+          >
             <ReactPlayer
               url={"https://www.youtube.com/watch?v=3r_Y_t9e7yo" || ""}
               width={"100%"}
