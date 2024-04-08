@@ -79,11 +79,13 @@ import speaker1 from "./speakers/speaker1.png";
 import speaker2 from "./speakers/speaker2.png";
 import speaker4 from "./speakers/speaker4.png";
 import speaker5 from "./speakers/speaker5.png";
+import linkeden2 from "./speakers/linkeden2.png";
 export {
   speaker1,
   speaker2,
   speaker4,
   speaker5,
+  linkeden2,
   brainwave,
   awsLogo,
   check,

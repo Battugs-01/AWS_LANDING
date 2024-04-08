@@ -1,31 +1,19 @@
-/* eslint-disable no-undef */
 import { linkeden2 } from "../assets";
-import { speakers } from "../constants";
+import { orgTeam } from "../constants";
 import Section from "./Section";
 import SlideUpWhenVisible from "./animate_when_visible";
-const Speakers = () => {
+const OrgTeam = () => {
   return (
-    <Section id="speakers" className={"mt-10"}>
+    <Section id="org_team" className={"mt-10"}>
       <SlideUpWhenVisible className="mx-10 relative z-2" from="top">
         <div className="flex flex-col items-center gap-4 self-stretch md:px-5">
           <p className="text-[64px] bg-gradient2 bg-clip-text text-center !font-rockwell leading-[120%] !text-transparent">
-            Speakers
-          </p>
-          <p className="text-center leading-[150%] text-[24px] md:w-4/5 lg:w-4/6 w-full">
-            <span className="text-[#EAECF0]">Join the second&nbsp;</span>
-            <span className="text-[#F19E38]">
-              AWS Community Day in Ulaanbaatar!&nbsp;
-            </span>
-            <span className="text-[#EAECF0]">
-              Engage with cloud experts, explore advanced topics, and network
-              with like-minded individuals. Enhance your cloud skills at this
-              special event!
-            </span>
+            Organizing team
           </p>
         </div>
         <div className="flex items-center justify-center mt-20">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 self-stretch">
-            {speakers.map((item) => (
+            {orgTeam.map((item) => (
               <>
                 <div className="flex flex-col gap-4  group" key={item.key}>
                   <div className="relative group">
@@ -66,4 +54,4 @@ const Speakers = () => {
   );
 };
 
-export default Speakers;
+export default OrgTeam;

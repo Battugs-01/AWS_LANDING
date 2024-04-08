@@ -14,7 +14,6 @@ const Schedules = () => {
         </div>
 
         <div>8:00 - 9:00</div>
-
         <div className="flex justify-center items-center col-span-6">
           Registration & Breakfast
         </div>
