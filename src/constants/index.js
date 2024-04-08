@@ -1,15 +1,11 @@
 import {
-  benefitIcon1,
-  benefitIcon2,
-  benefitIcon3,
-  benefitIcon4,
-  benefitImage2,
   discordBlack,
   facebook,
   instagram,
   telegram,
   twitter,
   yourlogo,
+  speaker1,
 } from "../assets";
 
 export const navigation = [
@@ -53,56 +49,48 @@ export const navigation = [
 
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
-export const benefits = [
+export const speakers = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "./src/assets/benefits/card-1.svg",
-    iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    name: "Munkhjin Bayarmaa",
+    position: "UI / UX Designer",
+    backgroundUrl: { speaker1 },
+    linkeden: "https://www.linkedin.com/in/munkhjin-bayarma-504319266/",
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-    backgroundUrl: "./src/assets/benefits/card-2.svg",
-    iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
-    light: true,
+    name: "Munkhjin Bayarmaa",
+    position: "UI / UX Designer",
+    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    linkeden: "https://www.linkedin.com/in/munkhjin-bayarma-504319266/",
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
-    backgroundUrl: "./src/assets/benefits/card-3.svg",
-    iconUrl: benefitIcon3,
-    imageUrl: benefitImage2,
+    name: "Munkhjin Bayarmaa",
+    position: "UI / UX Designer",
+    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    linkeden: "https://www.linkedin.com/in/munkhjin-bayarma-504319266/",
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "./src/assets/benefits/card-4.svg",
-    iconUrl: benefitIcon4,
-    imageUrl: benefitImage2,
-    light: true,
+    name: "Munkhjin Bayarmaa",
+    position: "UI / UX Designer",
+    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    linkeden: "https://www.linkedin.com/in/munkhjin-bayarma-504319266/",
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "./src/assets/benefits/card-5.svg",
-    iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    name: "Munkhjin Bayarmaa",
+    position: "UI / UX Designer",
+    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    linkeden: "https://www.linkedin.com/in/munkhjin-bayarma-504319266/",
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-    backgroundUrl: "./src/assets/benefits/card-6.svg",
-    iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
+    name: "Munkhjin Bayarmaa",
+    position: "UI / UX Designer",
+    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    linkeden: "https://www.linkedin.com/in/munkhjin-bayarma-504319266/",
   },
 ];
 

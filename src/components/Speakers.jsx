@@ -1,3 +1,6 @@
+/* eslint-disable no-undef */
+import { Link } from "react-router-dom";
+import { speakers } from "../constants";
 import Section from "./Section";
 
 const Speakers = () => {
@@ -69,6 +72,30 @@ const Speakers = () => {
             </div>
           ))}
         </div> */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {speakers.map((item) => (
+            // <div className="flex flex-col items-center gap-2" key={item.id}>
+            //   <img
+            //     src={item.backgroundUrl}
+            //     alt={item.name}
+            //     className="w-40 h-40 rounded-full object-cover"
+            //   />
+            //   {/* <p className="text-[#EAECF0] text-[24px] font-bold">
+            //     {item.name}
+            //   </p>
+            //   <p className="text-[#F19E38] text-[20px]">{item.position}</p>
+            //   <a
+            //     href={item.linkeden}
+            //     target="_blank"
+            //     rel="noopener noreferrer"
+            //     className="flex items-center gap-1"
+            //   >
+            //     <p className="text-[#EAECF0] text-[20px]">Linkedin</p>
+            //   </a> */}
+            // </div>
+            <img src={item.backgroundUrl} alt="" />
+          ))}
+        </div>
       </div>
     </Section>
   );
