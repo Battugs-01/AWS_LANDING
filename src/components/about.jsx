@@ -17,9 +17,9 @@ const About = () => {
         <div className="flex flex-col gap-4 rounded-bl-[32px] rounded-tl-[32px] rounded-tr-[32px] rounded-br-[32px]  bg-gradient pt-5 md:flex-row">
           <SlideUpWhenVisible
             from="right"
-            className="text-[32px] !text-gray-100 leading-[150%] flex flex-col gap-8 pb-4 px-4 md:w-full font-medium "
+            className="text-[32px] !text-gray-100 leading-[150%] flex flex-col gap-8 pb-4 px-4 md:w-full font-medium text-center"
           >
-            <div>
+            <div className="flex  flex-col gap-8 pb-4 pl-4 md:w-full text-start items-center">
               <p className="md:w-4/5 w-full">
                 Mongolia is known as the &#39;Land of Eternal Blue Sky,&#39; and
                 its tech scene shows great promise. Don&#39;t just take our word
@@ -43,7 +43,7 @@ const About = () => {
               }}
             >
               <ReactPlayer
-                url={"https://www.youtube.com/watch?v=3r_Y_t9e7yo" || ""}
+                url={"https://www.youtube.com/watch?v=gtAT7Eh6__M" || ""}
                 width={"100%"}
                 height={"100%"}
                 controls={false}

@@ -1,4 +1,4 @@
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 import { awsLogo } from "../assets";
 import { navigation } from "../constants";
@@ -72,9 +72,9 @@ const Header = () => {
           <HamburgerMenu />
         </nav>
 
-        <Button className="hidden lg:flex" href="#login">
-          Learn more
-        </Button>
+        <Link to="https://awsmongolia.com/">
+          <Button className="hidden lg:flex">Learn more</Button>
+        </Link>
 
         <Button
           className="ml-auto lg:hidden"

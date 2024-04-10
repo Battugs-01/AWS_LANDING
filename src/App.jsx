@@ -1,4 +1,5 @@
 import ButtonGradient from "./assets/svg/ButtonGradient";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import Speakers from "./components/Speakers";
@@ -20,6 +21,7 @@ const App = () => {
         <Schedules />
         <Sponsers />
         <FAQ />
+        <Footer />
       </div>
 
       <ButtonGradient />

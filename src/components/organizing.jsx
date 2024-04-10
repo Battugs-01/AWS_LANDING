@@ -1,18 +1,17 @@
 import { linkeden2 } from "../assets";
 import { orgTeam } from "../constants";
 import Section from "./Section";
-import SlideUpWhenVisible from "./animate_when_visible";
 const OrgTeam = () => {
   return (
     <Section id="org_team" className={"mt-10"}>
-      <SlideUpWhenVisible className="mx-10 relative z-2" from="top">
+      <div className="mx-10 relative z-2">
         <div className="flex flex-col items-center gap-4 self-stretch md:px-5">
           <p className="text-[64px] bg-gradient2 bg-clip-text text-center !font-rockwell leading-[120%] !text-transparent">
             Organizing team
           </p>
         </div>
         <div className="flex items-center justify-center mt-20">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 self-stretch">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-24 self-stretch">
             {orgTeam.map((item) => (
               <>
                 <div className="flex flex-col gap-4  group" key={item.key}>
@@ -22,7 +21,7 @@ const OrgTeam = () => {
                       key={item.id}
                       width={400}
                       height={400}
-                      className="rounded-xl object-cover w-full transition duration-300 filter  hover:blur-[5px]"
+                      className="rounded-3xl object-cover h-[400px] w-full transition duration-300 filter  hover:blur-[5px]"
                     />
                     <a
                       href={item.linkeden}
@@ -49,7 +48,7 @@ const OrgTeam = () => {
             ))}
           </div>
         </div>
-      </SlideUpWhenVisible>
+      </div>
     </Section>
   );
 };

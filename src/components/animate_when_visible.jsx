@@ -49,13 +49,13 @@ const SlideUpWhenVisible = ({
       ref={ref}
       className={cn(
         className,
-        "transform transition-opacity delay-300 duration-500 ease-in-out",
+        "transform transition-opacity delay-200 duration-300 ease-in-out",
         !inView ? "opacity-0" : "opacity-100  "
       )}
     >
       <div
         className={cn(
-          "transform transition-transform delay-300 duration-500",
+          "transform transition-transform delay-200 duration-300",
           !inView ? " opacity-0" : " opacity-100 ",
           inView ? getInitialTransform() : getTransform()
         )}
