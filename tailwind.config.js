@@ -57,6 +57,57 @@ export default {
       transitionDuration: {
         DEFAULT: "200ms",
       },
+      keyframes: {
+        typing: {
+          "0%": {
+            width: "0%",
+            visibility: "hidden",
+          },
+          "100%": {
+            width: "100%",
+          },
+        },
+        blink: {
+          "50%": {
+            borderColor: "transparent",
+          },
+          "100%": {
+            borderColor: "white",
+          },
+        },
+        "accordion-down": {
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
+        },
+        "accordion-up": {
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
+        },
+
+        infiniteSlider: {
+          "0%": { transform: "translateX(0)" },
+          "100%": {
+            // i have 300px width of the slider 10 items
+            transform: "translateX(calc(-100%))",
+          },
+        },
+        infiniteSlider2: {
+          "0%": { transform: "translateX(-100%)" },
+          "100%": {
+            transform: "translateX(0)",
+          },
+        },
+      },
+      animation: {
+        "accordion-down": "accordion-down 0.9s ease-out",
+        "accordion-up": "accordion-up 0.9s ease-out",
+        typewriter: "typewriter 2s steps(11) forwards",
+        caret:
+          "typewriter 2s steps(11) forwards, blink 1s steps(11) infinite 2s",
+        ["infinite-slider"]: "infiniteSlider 20s linear infinite",
+        ["infinite-slider2"]: "infiniteSlider2 20s linear infinite",
+        typing: "typing 2s steps(20) alternate, blink .7s infinite",
+      },
       transitionTimingFunction: {
         DEFAULT: "linear",
       },

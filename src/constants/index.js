@@ -120,6 +120,110 @@ export const orgTeam = [
   },
 ];
 
+export const DaimondSponsors = [
+  {
+    src: "images/img_webflow_black.png",
+    alt: "1",
+  },
+  {
+    src: "images/img_relume_black.png",
+    alt: "2",
+  },
+  {
+    src: "images/img_webflow_black.png",
+    alt: "3",
+  },
+  {
+    src: "images/img_relume_black.png",
+    alt: "4",
+  },
+  {
+    src: "images/img_webflow_black.png",
+    alt: "1",
+  },
+  {
+    src: "images/img_relume_black.png",
+    alt: "2",
+  },
+  {
+    src: "images/img_webflow_black.png",
+    alt: "3",
+  },
+  {
+    src: "images/img_relume_black.png",
+    alt: "4",
+  },
+];
+export const GoldSponsors = [
+  {
+    src: "images/img_webflow_black.png",
+    alt: "1",
+  },
+  {
+    src: "images/img_relume_black.png",
+    alt: "2",
+  },
+  {
+    src: "images/img_webflow_black.png",
+    alt: "3",
+  },
+  {
+    src: "images/img_relume_black.png",
+    alt: "4",
+  },
+  {
+    src: "images/img_webflow_black.png",
+    alt: "1",
+  },
+  {
+    src: "images/img_relume_black.png",
+    alt: "2",
+  },
+  {
+    src: "images/img_webflow_black.png",
+    alt: "3",
+  },
+  {
+    src: "images/img_relume_black.png",
+    alt: "4",
+  },
+];
+
+export const DigitalSponsors = [
+  {
+    src: "images/img_webflow_black.png",
+    alt: "1",
+  },
+  {
+    src: "images/img_relume_black.png",
+    alt: "2",
+  },
+  {
+    src: "images/img_webflow_black.png",
+    alt: "3",
+  },
+  {
+    src: "images/img_relume_black.png",
+    alt: "4",
+  },
+  {
+    src: "images/img_webflow_black.png",
+    alt: "1",
+  },
+  {
+    src: "images/img_relume_black.png",
+    alt: "2",
+  },
+  {
+    src: "images/img_webflow_black.png",
+    alt: "3",
+  },
+  {
+    src: "images/img_relume_black.png",
+    alt: "4",
+  },
+];
+
 export const socials = [
   {
     id: "0",

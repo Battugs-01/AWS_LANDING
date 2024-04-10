@@ -2,11 +2,11 @@
 import { linkeden2 } from "../assets";
 import { speakers } from "../constants";
 import Section from "./Section";
-import SlideUpWhenVisible from "./animate_when_visible";
+// import SlideUpWhenVisible from "./animate_when_visible";
 const Speakers = () => {
   return (
     <Section id="speakers" className={"mt-10"}>
-      <SlideUpWhenVisible className="mx-10 relative z-2" from="top">
+      <div className="mx-10 relative z-2">
         <div className="flex flex-col items-center gap-4 self-stretch md:px-5">
           <p className="text-[64px] bg-gradient2 bg-clip-text text-center !font-rockwell leading-[120%] !text-transparent">
             Speakers
@@ -61,7 +61,7 @@ const Speakers = () => {
             ))}
           </div>
         </div>
-      </SlideUpWhenVisible>
+      </div>
     </Section>
   );
 };
