@@ -46,8 +46,8 @@ const Schedules = () => {
                 </p>
               </div>
               <div className="border-t border-white w-full"></div>
-              <div className="grid grid-cols-6 gap-2 sm:gap-6 ">
-                <div className="flex flex-col gap-2 w-40 bg-[#8C7D6B] py-4 col-span-2">
+              <div className="grid md:grid-cols-6 grid-cols-8 gap-2 sm:gap-6 ">
+                <div className="flex flex-col gap-2 w-40 bg-[#8C7D6B] py-4 md:col-span-2  col-span-4">
                   <p className=" text-lg font-bold text-white text-center shrink-0">
                     12:00 - 12:30
                   </p>
@@ -55,13 +55,13 @@ const Schedules = () => {
                     Registration & Breakfast
                   </p>
                 </div>
-                <p className="text-lg font-semibold text-white   flex justify-center items-center col-span-3">
+                <p className="text-lg font-semibold text-white   flex justify-center items-center md:col-span-3  col-span-4">
                   Registration , Breakfast
                 </p>
               </div>
               <div className="border-t border-white w-full"></div>
-              <div className="grid grid-cols-6 gap-2 sm:gap-6 ">
-                <div className="flex flex-col gap-2 w-40  py-4 col-span-2">
+              <div className="grid md:grid-cols-6 grid-cols-8 gap-2 sm:gap-6 ">
+                <div className="flex flex-col gap-2 w-40  py-4 md:col-span-2  col-span-4">
                   <p className=" text-lg font-bold text-white text-center shrink-0">
                     12:30 - 12:50
                   </p>
@@ -69,13 +69,13 @@ const Schedules = () => {
                     Sponsors' time
                   </p>
                 </div>
-                <p className="text-lg font-semibold text-white  flex justify-center items-center col-span-3">
+                <p className="text-lg font-semibold text-white  flex justify-center items-center md:col-span-3  col-span-4">
                   Sponsors' time
                 </p>
               </div>
               <div className="border-b border-white w-full"></div>
-              <div className="grid grid-cols-6 gap-2 sm:gap-6 ">
-                <div className="flex flex-col gap-2 w-40 bg-[#8C7D6B] py-4 col-span-2 ">
+              <div className="grid md:grid-cols-6 grid-cols-8 gap-2 sm:gap-6 ">
+                <div className="flex flex-col gap-2 w-40 bg-[#8C7D6B] py-4 md:col-span-2 col-span-4">
                   <p className=" text-lg font-bold text-white text-center shrink-0">
                     12:50 - 13:00
                   </p>
@@ -83,7 +83,7 @@ const Schedules = () => {
                     Opening Welcome
                   </p>
                 </div>
-                <p className="text-lg font-semibold text-white  flex justify-center items-center col-span-3">
+                <p className="text-lg font-semibold text-white  flex justify-center  items-center md:col-span-3 col-span-4">
                   Opening Welcome
                 </p>
               </div>
@@ -172,8 +172,8 @@ const Schedules = () => {
                 </p>
               </div>
               <div className="border-b border-white w-full"></div>
-              <div className="grid grid-cols-6 gap-2 sm:gap-6 ">
-                <div className="flex flex-col gap-2 w-40  py-4 col-span-2">
+              <div className="grid md:grid-cols-6 grid-cols-8 gap-2 sm:gap-6 ">
+                <div className="flex flex-col gap-2 w-40  py-4   md:col-span-2 col-span-4">
                   <p className=" text-lg font-bold text-white text-center shrink-0">
                     15:50 - 16:00
                   </p>
@@ -181,7 +181,7 @@ const Schedules = () => {
                     Kahoot quiz / Closing Address
                   </p>
                 </div>
-                <p className="text-lg font-semibold text-white  flex justify-center items-center text-wrap md:flex-nowrap col-span-3">
+                <p className="text-lg font-semibold text-white  flex justify-center items-center text-wrap md:flex-nowrap  md:col-span-3 col-span-4">
                   Kahoot quiz / Closing Address / Photo
                 </p>
               </div>
@@ -232,8 +232,8 @@ const Schedules = () => {
                 </p>
               </div>
               <div className="border-t border-white w-full"></div>
-              <div className="grid grid-cols-6 gap-2 sm:gap-6 ">
-                <div className="flex flex-col gap-2 w-40  py-4 col-span-2">
+              <div className="grid  md:grid-cols-6 grid-cols-8 gap-2 sm:gap-6 ">
+                <div className="flex flex-col gap-2 w-40  py-4  md:col-span-2 col-span-4">
                   <p className=" text-lg font-bold text-white text-center shrink-0">
                     9:30 - 10:00
                   </p>
@@ -241,7 +241,7 @@ const Schedules = () => {
                     Collecting teams
                   </p>
                 </div>
-                <p className="text-lg font-semibold text-white  flex justify-center items-center col-span-3">
+                <p className="text-lg font-semibold text-white  flex justify-center items-center md:col-span-3 col-span-4">
                   Collecting teams
                 </p>
               </div>

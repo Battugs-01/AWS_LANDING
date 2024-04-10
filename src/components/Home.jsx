@@ -68,7 +68,7 @@ const Home = () => {
                 />
               </div>
             </div>
-            <div className="md:absolute left-0 right-0 top-0 m-auto w-full rounded-bl-[32px] rounded-br-[32px] bg-gradient1 md:pb-5 container flex">
+            <div className="md:absolute left-0 right-0 top-0 m-auto w-full rounded-bl-[32px] rounded-br-[32px] bg-gradient1 md:pb-5 container ">
               <div>
                 <div className="flex flex-col items-center gap-16 pt-12 md:pt-5 sm:gap-8 justify-start">
                   <div className="flex flex-col items-center gap-4 self-stretch md:px-5 py-0">
