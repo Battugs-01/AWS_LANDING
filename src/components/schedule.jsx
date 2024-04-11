@@ -52,7 +52,7 @@ const Schedules = () => {
                     12:00 - 12:30
                   </p>
                 </div>
-                <p className="text-lg font-semibold text-white   flex justify-left items-center md:col-span-3  col-span-4">
+                <p className="text-lg font-semibold text-white   flex justify-left items-center md:col-span-3  col-span-4 pl-2">
                   Registration , Breakfast
                 </p>
               </div>
@@ -63,7 +63,7 @@ const Schedules = () => {
                     12:30 - 12:50
                   </p>
                 </div>
-                <p className="text-lg font-semibold text-white  flex justify-left items-center md:col-span-3  col-span-4">
+                <p className="text-lg font-semibold text-white  flex justify-left items-center md:col-span-3  col-span-4 pl-2">
                   Sponsors' time
                 </p>
               </div>
@@ -74,7 +74,7 @@ const Schedules = () => {
                     12:50 - 13:00
                   </p>
                 </div>
-                <p className="text-lg font-semibold text-white  flex justify-left  items-center md:col-span-3 col-span-4">
+                <p className="text-lg font-semibold text-white  flex justify-left  items-center md:col-span-3 col-span-4 pl-2">
                   Opening Welcome
                 </p>
               </div>
@@ -85,7 +85,7 @@ const Schedules = () => {
                     13:00 - 13:30
                   </p>
                 </div>
-                <p className="text-lg font-semibold text-white  flex justify-left items-center col-span-3">
+                <p className="text-lg font-semibold text-white  flex justify-left  items-center md:col-span-3 col-span-4 pl-2">
                   Speaker 1
                 </p>
               </div>
@@ -96,7 +96,7 @@ const Schedules = () => {
                     13:30 - 14:00
                   </p>
                 </div>
-                <p className="text-lg font-semibold text-white  flex justify-left items-center col-span-3">
+                <p className="text-lg font-semibold text-white  flex justify-left  items-center md:col-span-3 col-span-4 pl-2">
                   Speaker 2
                 </p>
               </div>
@@ -107,7 +107,7 @@ const Schedules = () => {
                     14:00 - 14:30
                   </p>
                 </div>
-                <p className="text-lg font-semibold text-white  flex justify-left items-center col-span-3">
+                <p className="text-lg font-semibold text-white  flex justify-left  items-center md:col-span-3 col-span-4 pl-2">
                   Speaker 3
                 </p>
               </div>
@@ -118,7 +118,7 @@ const Schedules = () => {
                     14:30 - 15:00
                   </p>
                 </div>
-                <p className="text-lg font-semibold text-white  flex justify-left items-center col-span-3">
+                <p className="text-lg font-semibold text-white  flex justify-left  items-center md:col-span-3 col-span-4 pl-2">
                   Speaker 4
                 </p>
               </div>
@@ -129,7 +129,7 @@ const Schedules = () => {
                     15:00 - 15:30
                   </p>
                 </div>
-                <p className="text-lg font-semibold text-white  flex justify-left items-center  col-span-3">
+                <p className="text-lg font-semibold text-white  flex justify-left  items-center md:col-span-3 col-span-4 pl-2">
                   Speaker 5
                 </p>
               </div>
@@ -140,7 +140,7 @@ const Schedules = () => {
                     15:30 - 15:50
                   </p>
                 </div>
-                <p className="text-lg font-semibold text-white  flex justify-left items-center col-span-3">
+                <p className="text-lg font-semibold text-white  flex justify-left  items-center md:col-span-3 col-span-4 pl-2">
                   Speaker 6
                 </p>
               </div>
@@ -151,7 +151,7 @@ const Schedules = () => {
                     15:50 - 16:00
                   </p>
                 </div>
-                <p className="text-lg font-semibold text-white  flex justify-left items-center text-wrap md:flex-nowrap  md:col-span-3 col-span-4">
+                <p className="text-lg font-semibold text-white  flex justify-left  items-center md:col-span-3 col-span-4 pl-2">
                   Kahoot quiz / Closing Address / Photo
                 </p>
               </div>
