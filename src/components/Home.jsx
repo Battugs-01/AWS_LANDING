@@ -94,10 +94,10 @@ const Home = () => {
                   </div>
                   <Countdown targetDate={dateTimeAfterThreeDays} />
                   <div className="flex gap-5 mt-6">
-                    <Link to={"https://events.awsmongolia.com/"}>
+                    <Link to={"https://events.awsmongolia.com/" target="_blank"}>
                       <Button white>Free Registration Coming Soon...</Button>
                     </Link>
-                    <a href="https://sessionize.com/aws-community-days-mongolia-2024">
+                    <a href="https://sessionize.com/aws-community-days-mongolia-2024" target="_blank">
                       <Button className={undefined}>Apply for the Speaker</Button>
                     </a>
                   </div>
