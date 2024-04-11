@@ -46,18 +46,18 @@ const Schedules = () => {
                 </p>
               </div>
               <div className="border-t border-white w-full"></div>
-              <div className="grid md:grid-cols-6 grid-cols-8 gap-2 sm:gap-6 ">
-                <div className="flex flex-col gap-2 w-40 bg-[#8C7D6B] py-4 md:col-span-2  col-span-4">
+              <div className="flex gap-4 sm:gap-20 ">
+                <div className="flex flex-col gap-2 w-40 bg-[#8C7D6B] py-4">
                   <p className=" text-lg font-bold text-white text-center shrink-0">
                     12:00 - 12:30
                   </p>
                 </div>
-                <p className="text-lg font-semibold text-white   flex justify-left items-center md:col-span-3  col-span-4 pl-2">
+                <p className="text-lg font-semibold text-white   flex justify-left items-center pl-2">
                   Registration , Breakfast
                 </p>
               </div>
               <div className="border-t border-white w-full"></div>
-              <div className="grid md:grid-cols-6 grid-cols-8 gap-2 sm:gap-6 ">
+              <div className="flex gap-4 sm:gap-20 ">
                 <div className="flex flex-col gap-2 w-40  py-4 md:col-span-2  col-span-4">
                   <p className=" text-lg font-bold text-white text-center shrink-0">
                     12:30 - 12:50
@@ -68,7 +68,7 @@ const Schedules = () => {
                 </p>
               </div>
               <div className="border-b border-white w-full"></div>
-              <div className="grid md:grid-cols-6 grid-cols-8 gap-2 sm:gap-6 ">
+              <div className="flex gap-4 sm:gap-20 ">
                 <div className="flex flex-col gap-2 w-40 bg-[#8C7D6B] py-4 md:col-span-2 col-span-4">
                   <p className=" text-lg font-bold text-white text-center shrink-0">
                     12:50 - 13:00
@@ -79,7 +79,7 @@ const Schedules = () => {
                 </p>
               </div>
               <div className="border-b border-white w-full"></div>
-              <div className="grid grid-cols-6 gap-2 sm:gap-6 ">
+              <div className="flex gap-4 sm:gap-20">
                 <div className="flex flex-col gap-2 w-40  py-4 col-span-2">
                   <p className=" text-lg font-bold text-white text-center shrink-0">
                     13:00 - 13:30
@@ -90,7 +90,7 @@ const Schedules = () => {
                 </p>
               </div>
               <div className="border-b border-white w-full"></div>
-              <div className="grid grid-cols-6 gap-2 sm:gap-6 ">
+              <div className="flex gap-4 sm:gap-20 ">
                 <div className="flex flex-col gap-2 w-40 bg-[#8C7D6B] py-4 col-span-2">
                   <p className=" text-lg font-bold text-white text-center shrink-0">
                     13:30 - 14:00
@@ -101,7 +101,7 @@ const Schedules = () => {
                 </p>
               </div>
               <div className="border-b border-white w-full"></div>{" "}
-              <div className="grid grid-cols-6 gap-2 sm:gap-6 ">
+              <div className="flex gap-4 sm:gap-20">
                 <div className="flex flex-col gap-2 w-40  py-4 col-span-2">
                   <p className=" text-lg font-bold text-white text-center shrink-0">
                     14:00 - 14:30
@@ -112,7 +112,7 @@ const Schedules = () => {
                 </p>
               </div>
               <div className="border-b border-white w-full"></div>
-              <div className="grid grid-cols-6 gap-2 sm:gap-6 ">
+              <div className="flex gap-4 sm:gap-20">
                 <div className="flex flex-col gap-2 w-40 bg-[#8C7D6B] py-4 col-span-2">
                   <p className=" text-lg font-bold text-white text-center shrink-0">
                     14:30 - 15:00
@@ -123,7 +123,7 @@ const Schedules = () => {
                 </p>
               </div>
               <div className="border-b border-white w-full"></div>
-              <div className="grid grid-cols-6 gap-2 sm:gap-6 ">
+              <div className="flex gap-4 sm:gap-20 ">
                 <div className="flex flex-col gap-2 w-40  py-4 col-span-2">
                   <p className=" text-lg font-bold text-white text-center shrink-0">
                     15:00 - 15:30
@@ -134,7 +134,7 @@ const Schedules = () => {
                 </p>
               </div>
               <div className="border-b border-white w-full"></div>
-              <div className="grid grid-cols-6 gap-2 sm:gap-6 ">
+              <div className="flex gap-4 sm:gap-20 ">
                 <div className="flex flex-col gap-2 w-40 bg-[#8C7D6B] py-4 col-span-2 ">
                   <p className=" text-lg font-bold text-white text-center shrink-0">
                     15:30 - 15:50
@@ -145,7 +145,7 @@ const Schedules = () => {
                 </p>
               </div>
               <div className="border-b border-white w-full"></div>
-              <div className="grid md:grid-cols-6 grid-cols-8 gap-2 sm:gap-6 ">
+              <div className="flex gap-4 sm:gap-20 ">
                 <div className="flex flex-col gap-2 w-40  py-4   md:col-span-2 col-span-4">
                   <p className=" text-lg font-bold text-white text-center shrink-0">
                     15:50 - 16:00
@@ -188,7 +188,7 @@ const Schedules = () => {
                 </p>
               </div>
               <div className="border-t border-white w-full"></div>
-              <div className="grid grid-cols-6 gap-2 sm:gap-6 ">
+              <div className="flex gap-4 sm:gap-20">
                 <div className="flex flex-col gap-2 w-40 bg-[#688068] py-4 col-span-2">
                   <p className=" text-lg font-bold text-white text-center shrink-0">
                     9:00 - 9:30
@@ -199,7 +199,7 @@ const Schedules = () => {
                 </p>
               </div>
               <div className="border-t border-white w-full"></div>
-              <div className="grid  md:grid-cols-6 grid-cols-8 gap-2 sm:gap-6 ">
+              <div className="flex gap-4 sm:gap-20 ">
                 <div className="flex flex-col gap-2 w-40  py-4  md:col-span-2 col-span-4">
                   <p className=" text-lg font-bold text-white text-center shrink-0">
                     9:30 - 10:00
@@ -210,7 +210,7 @@ const Schedules = () => {
                 </p>
               </div>
               <div className="border-b border-white w-full"></div>
-              <div className="grid grid-cols-6 gap-2 sm:gap-6 ">
+              <div className="flex gap-4 sm:gap-20 ">
                 <div className="flex flex-col gap-2 w-40 bg-[#688068] py-4 col-span-2 ">
                   <p className=" text-lg font-bold text-white text-center shrink-0">
                     10:00 - 15:00
@@ -221,7 +221,7 @@ const Schedules = () => {
                 </p>
               </div>
               <div className="border-b border-white w-full"></div>
-              <div className="grid grid-cols-6 gap-2 sm:gap-6 ">
+              <div className="flex gap-4 sm:gap-20 ">
                 <div className="flex flex-col gap-2 w-40  py-4 col-span-2">
                   <p className=" text-lg font-bold text-white text-center shrink-0">
                     15:00 - 15:30
