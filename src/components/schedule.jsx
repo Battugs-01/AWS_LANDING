@@ -53,7 +53,7 @@ const Schedules = () => {
                   </p>
                 </div>
                 <p className="text-lg font-semibold text-white   flex justify-left items-center pl-2">
-                  Registration , Breakfast
+                  Registration & Merchandise
                 </p>
               </div>
               <div className="border-t border-white w-full"></div>
