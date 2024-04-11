@@ -72,7 +72,7 @@ const Header = () => {
           <HamburgerMenu />
         </nav>
 
-        <Link to="https://awsmongolia.com/">
+        <Link to="https://awsmongolia.com/" target="_blank">
           <Button className="hidden lg:flex">Learn more</Button>
         </Link>
 
