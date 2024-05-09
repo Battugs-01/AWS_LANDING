@@ -1,15 +1,11 @@
 import { useRef } from "react";
 import Section from "./Section";
 import Button from "./Button";
-import Countdown from "./CountDown";
 import SlideUpWhenVisible from "./animate_when_visible";
 import { Link } from "react-router-dom";
+import Counter from "./Counter";
 const Home = () => {
   const parallaxRef = useRef(null);
-
-  const THREE_DAYS_IN_MS = 65 * 24 * 60 * 60 * 1000;
-  const NOW_IN_MS = new Date().getTime();
-  const dateTimeAfterThreeDays = NOW_IN_MS + THREE_DAYS_IN_MS;
 
   return (
     <div>
@@ -92,13 +88,19 @@ const Home = () => {
                   <div className="text-[#EAECF0] m-0 p-0 text-[20px]">
                     2024 June 14-15
                   </div>
-                  <Countdown targetDate={dateTimeAfterThreeDays} />
+                  {/* <Countdown targetDate={dateTimeAfterThreeDays} /> */}
+                  <Counter />
                   <div className="flex gap-5 mt-6">
-                    <Link to={"https://events.awsmongolia.com/" target="_blank"}>
+                    <Link to={"https://events.awsmongolia.com/"}>
                       <Button white>Free Registration Coming Soon...</Button>
                     </Link>
-                    <a href="https://sessionize.com/aws-community-days-mongolia-2024" target="_blank">
-                      <Button className={undefined}>Apply for the Speaker</Button>
+                    <a
+                      href="https://sessionize.com/aws-community-days-mongolia-2024"
+                      target="_blank"
+                    >
+                      <Button className={undefined}>
+                        Apply for the Speaker
+                      </Button>
                     </a>
                   </div>
                 </div>
