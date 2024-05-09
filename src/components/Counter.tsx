@@ -47,20 +47,27 @@ export default function Counter() {
 
   return (
     <div className="relative">
-      {days > 0 ||
-        hours > 0 ||
-        minutes > 0 ||
-        (seconds > 0 && (
-          <div className="flex gap-8 justify-center items-center font-semibold">
-            <DateTimeDisplay value={days} type={"Days"} />
+      {days > 0 || hours > 0 || minutes > 0 || seconds > 0 ? (
+        <div className="flex gap-8 justify-center items-center font-semibold">
+          <DateTimeDisplay value={days} type={"Days"} />
 
-            <DateTimeDisplay value={hours} type={"Hours"} />
+          <DateTimeDisplay value={hours} type={"Hours"} />
 
-            <DateTimeDisplay value={minutes} type={"Min"} />
+          <DateTimeDisplay value={minutes} type={"Min"} />
 
-            <DateTimeDisplay value={seconds} type={"Seconds"} />
-          </div>
-        ))}
+          <DateTimeDisplay value={seconds} type={"Seconds"} />
+        </div>
+      ) : (
+        <div className="flex gap-8 justify-center items-center font-semibold">
+          <DateTimeDisplay value={days} type={"Days"} />
+
+          <DateTimeDisplay value={hours} type={"Hours"} />
+
+          <DateTimeDisplay value={minutes} type={"Min"} />
+
+          <DateTimeDisplay value={seconds} type={"Seconds"} />
+        </div>
+      )}
     </div>
   );
 }
