@@ -1,4 +1,4 @@
-import { jiguur, nary, defualtAvatar2 } from "../assets";
+import { anton, batulzii, guillermo, jiguur, nary, purevdondov, viktor, zolboo } from "../assets";
 
 export const navigation = [
   {
@@ -41,45 +41,45 @@ export const navigation = [
 export const speakers = [
   {
     id: "0",
-    name: "To be determined",
-    position: "Speaker",
-    backgroundUrl: defualtAvatar2,
+    name: "Viktor Vedmich",
+    position: "Senior Developer Advocate of AWS",
+    backgroundUrl: viktor,
     linkeden: "https://www.linkedin.com/",
   },
   {
     id: "1",
-    name: "To be determined",
-    position: "Speaker",
-    backgroundUrl: defualtAvatar2,
-    linkeden: "https://www.linkedin.com/",
+    name: "Batulzii Dashtseren",
+    position: "Founder, CEO of SanchirTech",
+    backgroundUrl: batulzii,
+    linkeden: "https://www.linkedin.com/in/batulzii-dashtseren-46947755/",
   },
   {
     id: "2",
-    name: "To be determined",
-    position: "Speaker",
-    backgroundUrl: defualtAvatar2,
-    linkeden: "https://www.linkedin.com/",
+    name: "Zolboobayar Gantumur",
+    position: "Co-Founder, CTO of Meta Global Inc",
+    backgroundUrl: zolboo,
+    linkeden: "https://www.linkedin.com/in/zolbooo/",
   },
   {
     id: "3",
-    name: "To be determined",
-    position: "Speaker",
-    backgroundUrl: defualtAvatar2,
-    linkeden: "https://www.linkedin.com/",
+    name: "Guillermo Ruiz",
+    position: "Sr. Developer Advocate of AWS",
+    backgroundUrl: guillermo,
+    linkeden: "https://www.linkedin.com/in/gruizesteban/",
   },
   {
     id: "4",
-    name: "To be determined",
-    position: "Speaker",
-    backgroundUrl: defualtAvatar2,
-    linkeden: "https://www.linkedin.com/",
+    name: "Purevdondov Enkhbayar",
+    position: "Tech Lead of URECA",
+    backgroundUrl: purevdondov,
+    linkeden: "https://www.linkedin.com/in/purevdondov/",
   },
   {
     id: "5",
-    name: "To be determined",
-    position: "Speaker",
-    backgroundUrl: defualtAvatar2,
-    linkeden: "https://www.linkedin.com/",
+    name: "Alexey Eremin",
+    position: "Cloud Engineering Specialist of FivexL",
+    backgroundUrl: anton,
+    linkeden: "https://www.linkedin.com/in/alexey-eremin/",
   },
 ];
 

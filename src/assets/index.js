@@ -22,12 +22,14 @@ import loading from "./loading.png";
 import background from "./background.jpg";
 
 import awsLogo from "./speakers/aws_logo.svg";
-import speaker1 from "./speakers/speaker1.png";
 import jiguur from "./speakers/jiguur.jpg";
 import nary from "./speakers/nary.jpg";
-import speaker2 from "./speakers/speaker2.png";
-import speaker4 from "./speakers/speaker4.png";
-import speaker5 from "./speakers/speaker5.png";
+import viktor from "./speakers/viktor.jpeg";
+import batulzii from "./speakers/batulzii.png";
+import zolboo from "./speakers/zolboo.jpeg";
+import guillermo from "./speakers/guillermo.jpeg";
+import purevdondov from "./speakers/purevdondov.jpeg";
+import anton from "./speakers/anton.jpg";
 import linkeden2 from "./speakers/linkeden2.png";
 import defualtAvatar from "./speakers/defualt-avatar.jpg";
 import defualtAvatar2 from "./speakers/defualt-avatar2.jpg";
@@ -40,11 +42,13 @@ export {
   cloud_academy,
   aws_group,
   defualtAvatar2,
-  speaker1,
+  viktor,
   jiguur,
-  speaker2,
-  speaker4,
-  speaker5,
+  batulzii,
+  zolboo,
+  guillermo,
+  purevdondov,
+  anton,
   linkeden2,
   awsLogo,
   brainwave,

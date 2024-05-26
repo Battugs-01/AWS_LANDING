@@ -28,18 +28,16 @@ const Schedules = () => {
                   </p>
                 </div>
                 <p
-                  className={`text-lg font-semibold col-span-4 flex justify-center items-center mt-4 hover:cursor-pointer hover:text-[20px] ${
-                    showConference ? "text-[#F19E38]" : "text-white"
-                  }`}
+                  className={`text-lg font-semibold col-span-4 flex justify-center items-center mt-4 hover:cursor-pointer hover:text-[20px] ${showConference ? "text-[#F19E38]" : "text-white"
+                    }`}
                   onClick={() => toggleSchedule()}
                 >
                   Conference - June 14
                 </p>
                 <div className="col-span-1 border-l border-white h-full"></div>
                 <p
-                  className={`text-lg font-semibold col-span-3 flex justify-center items-center mt-4 hover:cursor-pointer hover:text-[20px] ${
-                    !showConference ? "text-[#F19E38]" : "text-white"
-                  }`}
+                  className={`text-lg font-semibold col-span-3 flex justify-center items-center mt-4 hover:cursor-pointer hover:text-[20px] ${!showConference ? "text-[#F19E38]" : "text-white"
+                    }`}
                   onClick={() => toggleSchedule()}
                 >
                   Gameday - June 15
@@ -119,7 +117,7 @@ const Schedules = () => {
                   </p>
                 </div>
                 <p className="text-lg font-semibold text-white  flex justify-left  items-center md:col-span-3 col-span-4 pl-2">
-                  Speaker 4
+                  Coffee break
                 </p>
               </div>
               <div className="border-b border-white w-full"></div>
@@ -130,14 +128,25 @@ const Schedules = () => {
                   </p>
                 </div>
                 <p className="text-lg font-semibold text-white  flex justify-left  items-center md:col-span-3 col-span-4 pl-2">
-                  Speaker 5
+                  Speaker 4
                 </p>
               </div>
               <div className="border-b border-white w-full"></div>
               <div className="flex gap-4 sm:gap-20 ">
                 <div className="flex flex-col gap-2 w-40 bg-[#8C7D6B] py-4 col-span-2 ">
                   <p className=" text-lg font-bold text-white text-center shrink-0">
-                    15:30 - 15:50
+                    15:30 - 16:00
+                  </p>
+                </div>
+                <p className="text-lg font-semibold text-white  flex justify-left  items-center md:col-span-3 col-span-4 pl-2">
+                  Speaker 5
+                </p>
+              </div>
+              <div className="border-b border-white w-full"></div>
+              <div className="flex gap-4 sm:gap-20 ">
+                <div className="flex flex-col gap-2 w-40  py-4   md:col-span-2 col-span-4">
+                  <p className=" text-lg font-bold text-white text-center shrink-0">
+                    16:00 - 16:30
                   </p>
                 </div>
                 <p className="text-lg font-semibold text-white  flex justify-left  items-center md:col-span-3 col-span-4 pl-2">
@@ -145,17 +154,16 @@ const Schedules = () => {
                 </p>
               </div>
               <div className="border-b border-white w-full"></div>
-              <div className="flex gap-4 sm:gap-20 ">
-                <div className="flex flex-col gap-2 w-40  py-4   md:col-span-2 col-span-4">
+              <div className="flex gap-4 sm:gap-20">
+                <div className="flex flex-col gap-2 w-40 bg-[#8C7D6B] py-4 col-span-2 ">
                   <p className=" text-lg font-bold text-white text-center shrink-0">
-                    15:50 - 16:00
+                    16:30 - 16:50
                   </p>
                 </div>
                 <p className="text-lg font-semibold text-white  flex justify-left  items-center md:col-span-3 col-span-4 pl-2">
                   Kahoot quiz / Closing Address / Photo
                 </p>
               </div>
-              <div className="border-b border-white w-full"></div>
             </div>
           </div>
         </div>
@@ -170,18 +178,16 @@ const Schedules = () => {
                   </p>
                 </div>
                 <p
-                  className={`text-lg font-semibold col-span-4 flex justify-center items-center mt-4 hover:cursor-pointer hover:text-[20px] ${
-                    showConference ? "text-[#F19E38]" : "text-white"
-                  }`}
+                  className={`text-lg font-semibold col-span-4 flex justify-center items-center mt-4 hover:cursor-pointer hover:text-[20px] ${showConference ? "text-[#F19E38]" : "text-white"
+                    }`}
                   onClick={() => toggleSchedule()}
                 >
                   Conference - June 14
                 </p>
                 <div className="col-span-1 border-l border-white h-full"></div>
                 <p
-                  className={`text-lg font-semibold col-span-3 flex justify-center items-center mt-4 hover:cursor-pointer hover:text-[20px] ${
-                    !showConference ? "text-[#9CCC9C]" : "text-white"
-                  }`}
+                  className={`text-lg font-semibold col-span-3 flex justify-center items-center mt-4 hover:cursor-pointer hover:text-[20px] ${!showConference ? "text-[#9CCC9C]" : "text-white"
+                    }`}
                   onClick={() => toggleSchedule()}
                 >
                   Gameday - June 15
