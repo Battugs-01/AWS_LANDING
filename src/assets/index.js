@@ -28,7 +28,7 @@ import viktor from "./speakers/viktor.jpeg";
 import batulzii from "./speakers/batulzii.png";
 import zolboo from "./speakers/zolboo.jpeg";
 import guillermo from "./speakers/guillermo.jpeg";
-import purevdondov from "./speakers/purevdondov.jpeg";
+import purevdondov from "./speakers/purevdondov.png";
 import anton from "./speakers/anton.jpg";
 import linkeden2 from "./speakers/linkeden2.png";
 import defualtAvatar from "./speakers/defualt-avatar.jpg";
