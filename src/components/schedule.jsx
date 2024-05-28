@@ -47,40 +47,40 @@ const Schedules = () => {
               <div className="flex gap-4 sm:gap-20 ">
                 <div className="flex flex-col gap-2 w-40 bg-[#8C7D6B] py-4">
                   <p className=" text-lg font-bold text-white text-center shrink-0">
-                    12:00 - 12:30
+                    12:00 - 12:45
                   </p>
                 </div>
                 <p className="text-lg font-semibold text-white   flex justify-left items-center pl-2">
-                  Registration & Merchandise
+                  Registration, Networking & Coffee
                 </p>
               </div>
               <div className="border-t border-white w-full"></div>
               <div className="flex gap-4 sm:gap-20 ">
                 <div className="flex flex-col gap-2 w-40  py-4 md:col-span-2  col-span-4">
                   <p className=" text-lg font-bold text-white text-center shrink-0">
-                    12:30 - 12:50
+                    12:45-13:00
                   </p>
                 </div>
                 <p className="text-lg font-semibold text-white  flex justify-left items-center md:col-span-3  col-span-4 pl-2">
-                  Sponsors' time
+                  Opening Welcome - AWS User Group of Mongolia organizing team
                 </p>
               </div>
               <div className="border-b border-white w-full"></div>
               <div className="flex gap-4 sm:gap-20 ">
                 <div className="flex flex-col gap-2 w-40 bg-[#8C7D6B] py-4 md:col-span-2 col-span-4">
                   <p className=" text-lg font-bold text-white text-center shrink-0">
-                    12:50 - 13:00
+                    13:00-13:20
                   </p>
                 </div>
                 <p className="text-lg font-semibold text-white  flex justify-left  items-center md:col-span-3 col-span-4 pl-2">
-                  Opening Welcome
+                  Think Big, Think Community - Maria Encinar | AWS User Group Programm Global Lead
                 </p>
               </div>
               <div className="border-b border-white w-full"></div>
               <div className="flex gap-4 sm:gap-20">
                 <div className="flex flex-col gap-2 w-40  py-4 col-span-2">
                   <p className=" text-lg font-bold text-white text-center shrink-0">
-                    13:00 - 13:30
+                    13:20-14:00
                   </p>
                 </div>
                 <p className="text-lg font-semibold text-white  flex justify-left  items-center md:col-span-3 col-span-4 pl-2">
@@ -91,73 +91,73 @@ const Schedules = () => {
               <div className="flex gap-4 sm:gap-20 ">
                 <div className="flex flex-col gap-2 w-40 bg-[#8C7D6B] py-4 col-span-2">
                   <p className=" text-lg font-bold text-white text-center shrink-0">
-                    13:30 - 14:00
+                    14:00-14:30
                   </p>
                 </div>
                 <p className="text-lg font-semibold text-white  flex justify-left  items-center md:col-span-3 col-span-4 pl-2">
-                  Batulzii Dashtseren - AWS Ramp-Up Guide: Internet of Things
+                  AWS Ramp-Up Guide: Internet of Things | Batulzii Dashtseren - Founder, CEO of SanchirTech
                 </p>
               </div>
               <div className="border-b border-white w-full"></div>{" "}
               <div className="flex gap-4 sm:gap-20">
                 <div className="flex flex-col gap-2 w-40  py-4 col-span-2">
                   <p className=" text-lg font-bold text-white text-center shrink-0">
-                    14:00 - 14:30
+                    14:30-15:00
                   </p>
                 </div>
                 <p className="text-lg font-semibold text-white  flex justify-left  items-center md:col-span-3 col-span-4 pl-2">
-                  Guillermo Ruiz - Building Observability to increase resiliency
+                  Coffee break & Networking
                 </p>
               </div>
               <div className="border-b border-white w-full"></div>
               <div className="flex gap-4 sm:gap-20">
                 <div className="flex flex-col gap-2 w-40 bg-[#8C7D6B] py-4 col-span-2">
                   <p className=" text-lg font-bold text-white text-center shrink-0">
-                    14:30 - 15:00
+                    15:00-15:30
                   </p>
                 </div>
                 <p className="text-lg font-semibold text-white  flex justify-left  items-center md:col-span-3 col-span-4 pl-2">
-                  Purevdondov Enkhbayar
+                  Building Observability to increase resiliency | Guillermo Ruiz - Sr. Developer Advocate of AWS
                 </p>
               </div>
               <div className="border-b border-white w-full"></div>
               <div className="flex gap-4 sm:gap-20 ">
                 <div className="flex flex-col gap-2 w-40  py-4 col-span-2">
                   <p className=" text-lg font-bold text-white text-center shrink-0">
-                    15:00 - 15:30
+                    15:30-16:00
                   </p>
                 </div>
                 <p className="text-lg font-semibold text-white  flex justify-left  items-center md:col-span-3 col-span-4 pl-2">
-                  Coffee break
+                  Zero Trust in Cloud | Oleg Zolboobayar - Co-Founder, CTO of Meta Global Inc
                 </p>
               </div>
               <div className="border-b border-white w-full"></div>
               <div className="flex gap-4 sm:gap-20 ">
                 <div className="flex flex-col gap-2 w-40 bg-[#8C7D6B] py-4 col-span-2 ">
                   <p className=" text-lg font-bold text-white text-center shrink-0">
-                    15:30 - 16:00
+                    16:00-16:30
                   </p>
                 </div>
                 <p className="text-lg font-semibold text-white  flex justify-left  items-center md:col-span-3 col-span-4 pl-2">
-                  Oleg Zolboobayar - Zero trust
+                  Just-in-Time Access for AWS IAM Identity Center | Alexey Eremin - Cloud Engineering Specialist of FivexL
                 </p>
               </div>
               <div className="border-b border-white w-full"></div>
               <div className="flex gap-4 sm:gap-20 ">
                 <div className="flex flex-col gap-2 w-40  py-4   md:col-span-2 col-span-4">
                   <p className=" text-lg font-bold text-white text-center shrink-0">
-                    16:00 - 16:30
+                    16:30-17:00
                   </p>
                 </div>
                 <p className="text-lg font-semibold text-white  flex justify-left  items-center md:col-span-3 col-span-4 pl-2">
-                  Anton Eremin - Simplifying AWS access with just-in-time access for AWS IAM Identity Center
+                  Tech-Driven Sustainability: Shaping a Greener Future | Purevdondov Enkhbayar - Tech Lead of URECA
                 </p>
               </div>
               <div className="border-b border-white w-full"></div>
               <div className="flex gap-4 sm:gap-20">
                 <div className="flex flex-col gap-2 w-40 bg-[#8C7D6B] py-4 col-span-2 ">
                   <p className=" text-lg font-bold text-white text-center shrink-0">
-                    16:30 - 16:50
+                    17:00-17:30
                   </p>
                 </div>
                 <p className="text-lg font-semibold text-white  flex justify-left  items-center md:col-span-3 col-span-4 pl-2">
