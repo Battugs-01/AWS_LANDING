@@ -150,7 +150,7 @@ const Schedules = () => {
                   </p>
                 </div>
                 <p className="text-lg font-semibold text-white  flex justify-left  items-center md:col-span-3 col-span-4 pl-2">
-                  Tech-Driven Sustainability: Shaping a Greener Future | Purevdondov Enkhbayar - Tech Lead of URECA
+                  Leveraging AWS for Climate Impact | Purevdondov Enkhbayar - Tech Lead of URECA
                 </p>
               </div>
               <div className="border-b border-white w-full"></div>
