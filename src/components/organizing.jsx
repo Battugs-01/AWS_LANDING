@@ -11,7 +11,7 @@ const OrgTeam = () => {
           </p>
         </div>
         <div className="flex items-center justify-center mt-20">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-24 self-stretch">
+          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-24 self-stretch">
             {orgTeam.map((item) => (
               <>
                 <div className="flex flex-col gap-4  group" key={item.key}>

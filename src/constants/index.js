@@ -1,4 +1,4 @@
-import { anton, batulzii, guillermo, jiguur, nary, purevdondov, viktor, zolboo } from "../assets";
+import { anton, batulzii, guillermo, nary, jiguur, tuguldur, purevdondov, viktor, zolboo } from "../assets";
 
 export const navigation = [
   {
@@ -92,11 +92,18 @@ export const orgTeam = [
     linkeden: "https://www.linkedin.com/in/jiguurn/",
   },
   {
-    id: "1",
+    id: "2",
     name: "Nary",
     position: "Coordinator at Cloud Academy Mongolia",
     backgroundUrl: nary,
     linkeden: "https://www.linkedin.com/in/nar-narya/",
+  },
+  {
+    id: "3",
+    name: "Tuguldur",
+    position: "Co-Organizer of AWS User Group of Mongolia",
+    backgroundUrl: tuguldur,
+    linkeden: "https://www.linkedin.com/in/lkhagvatuguldur-demberel-a807a7122/",
   },
 ];
 

@@ -23,6 +23,7 @@ import background from "./background.jpg";
 
 import awsLogo from "./speakers/aws_logo.svg";
 import jiguur from "./speakers/jiguur.jpg";
+import tuguldur from "./speakers/tuguldur.jpg";
 import nary from "./speakers/nary.jpg";
 import viktor from "./speakers/viktor.jpeg";
 import batulzii from "./speakers/batulzii.png";
@@ -39,6 +40,7 @@ import aws_group from "./sponsers/aws-group.png";
 export {
   defualtAvatar,
   nary,
+  tuguldur,
   cloud_academy,
   aws_group,
   defualtAvatar2,
