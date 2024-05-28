@@ -84,7 +84,7 @@ const Schedules = () => {
                   </p>
                 </div>
                 <p className="text-lg font-semibold text-white  flex justify-left  items-center md:col-span-3 col-span-4 pl-2">
-                  Speaker 1
+                  Viktor Vedmich - Karpenter: Efficient scaling of Kubernetes clusters Nominated
                 </p>
               </div>
               <div className="border-b border-white w-full"></div>
@@ -95,7 +95,7 @@ const Schedules = () => {
                   </p>
                 </div>
                 <p className="text-lg font-semibold text-white  flex justify-left  items-center md:col-span-3 col-span-4 pl-2">
-                  Speaker 2
+                  Batulzii Dashtseren - AWS Ramp-Up Guide: Internet of Things
                 </p>
               </div>
               <div className="border-b border-white w-full"></div>{" "}
@@ -106,7 +106,7 @@ const Schedules = () => {
                   </p>
                 </div>
                 <p className="text-lg font-semibold text-white  flex justify-left  items-center md:col-span-3 col-span-4 pl-2">
-                  Speaker 3
+                  Guillermo Ruiz - Building Observability to increase resiliency
                 </p>
               </div>
               <div className="border-b border-white w-full"></div>
@@ -117,7 +117,7 @@ const Schedules = () => {
                   </p>
                 </div>
                 <p className="text-lg font-semibold text-white  flex justify-left  items-center md:col-span-3 col-span-4 pl-2">
-                  Coffee break
+                  Purevdondov Enkhbayar
                 </p>
               </div>
               <div className="border-b border-white w-full"></div>
@@ -128,7 +128,7 @@ const Schedules = () => {
                   </p>
                 </div>
                 <p className="text-lg font-semibold text-white  flex justify-left  items-center md:col-span-3 col-span-4 pl-2">
-                  Speaker 4
+                  Coffee break
                 </p>
               </div>
               <div className="border-b border-white w-full"></div>
@@ -139,7 +139,7 @@ const Schedules = () => {
                   </p>
                 </div>
                 <p className="text-lg font-semibold text-white  flex justify-left  items-center md:col-span-3 col-span-4 pl-2">
-                  Speaker 5
+                  Oleg Zolboobayar - Zero trust
                 </p>
               </div>
               <div className="border-b border-white w-full"></div>
@@ -150,7 +150,7 @@ const Schedules = () => {
                   </p>
                 </div>
                 <p className="text-lg font-semibold text-white  flex justify-left  items-center md:col-span-3 col-span-4 pl-2">
-                  Speaker 6
+                  Anton Eremin - Simplifying AWS access with just-in-time access for AWS IAM Identity Center
                 </p>
               </div>
               <div className="border-b border-white w-full"></div>
