@@ -139,7 +139,7 @@ const Schedules = () => {
                   </p>
                 </div>
                 <p className="text-lg font-semibold text-white  flex justify-left  items-center md:col-span-3 col-span-4 pl-2">
-                  Just-in-Time Access for AWS IAM Identity Center | Alexey Eremin - Cloud Engineering Specialist of FivexL
+                  Just-in-Time Access for AWS IAM Identity Center | Anton Eremin - Cloud Architecture Specialist of FivexL
                 </p>
               </div>
               <div className="border-b border-white w-full"></div>

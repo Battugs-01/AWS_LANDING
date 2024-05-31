@@ -76,10 +76,10 @@ export const speakers = [
   },
   {
     id: "5",
-    name: "Alexey Eremin",
-    position: "Cloud Engineering Specialist of FivexL",
+    name: "Anton Eremin",
+    position: "Cloud Architecture Specialist of FivexL",
     backgroundUrl: anton,
-    linkeden: "https://www.linkedin.com/in/alexey-eremin/",
+    linkeden: "https://www.linkedin.com/in/anton-eremin-75aab725a/",
   },
 ];
 
