@@ -1,4 +1,4 @@
-import { anton, batulzii, guillermo, nary, jiguur, tuguldur, purevdondov, viktor, zolboo } from "../assets";
+import { anton, batulzii, guillermo, nary, jiguur, tuguldur, purevdondov, viktor, zolboo, aleksandr, tuvshin } from "../assets";
 
 export const navigation = [
   {
@@ -80,6 +80,20 @@ export const speakers = [
     position: "Cloud Architecture Specialist of FivexL",
     backgroundUrl: anton,
     linkeden: "https://www.linkedin.com/in/anton-eremin-75aab725a/",
+  },
+  {
+    id: "6",
+    name: "Aleksandr Bernadskii",
+    position: "Solutions Architect of AWS",
+    backgroundUrl: aleksandr,
+    linkeden: "https://www.linkedin.com/in/alexandr-bernadskiy/",
+  },
+  {
+    id: "7",
+    name: "Tuvshin Otgonpurev",
+    position: "GenAI Developer of Rio Tinto",
+    backgroundUrl: tuvshin,
+    linkeden: "https://www.linkedin.com/in/tuvshinot/",
   },
 ];
 

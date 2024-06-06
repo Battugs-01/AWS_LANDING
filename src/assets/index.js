@@ -24,6 +24,8 @@ import background from "./background.jpg";
 import awsLogo from "./speakers/aws_logo.svg";
 import jiguur from "./speakers/jiguur.jpg";
 import tuguldur from "./speakers/tuguldur.jpg";
+import aleksandr from "./speakers/aleksandr.jpeg";
+import tuvshin from "./speakers/tuvshin.jpeg";
 import nary from "./speakers/nary.jpg";
 import viktor from "./speakers/viktor.jpeg";
 import batulzii from "./speakers/batulzii.png";
@@ -75,4 +77,6 @@ export {
   sliders04,
   loading,
   background,
+  aleksandr,
+  tuvshin
 };
