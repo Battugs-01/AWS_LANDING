@@ -40,14 +40,18 @@ import linkeden2 from "./speakers/linkeden2.png";
 import defualtAvatar from "./speakers/defualt-avatar.jpg";
 import defualtAvatar2 from "./speakers/defualt-avatar2.jpg";
 import cloud_academy from "./sponsers/cloud_academy.png";
-import aws_group from "./sponsers/aws-group.png";
+import aws from "./sponsers/aws.png";
+import cody from "./sponsers/cody.png";
+import sanchirtech from "./sponsers/sanchirtech.png";
 
 export {
   defualtAvatar,
   nary,
   tuguldur,
   cloud_academy,
-  aws_group,
+  aws,
+  cody,
+  sanchirtech,
   defualtAvatar2,
   viktor,
   jiguur,

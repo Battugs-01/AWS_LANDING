@@ -1,7 +1,6 @@
 import Section from "./Section";
 import SlideUpWhenVisible from "./animate_when_visible";
-import { aws_group } from "../assets";
-import { cloud_academy } from "../assets";
+import { aws, cody, sanchirtech } from "../assets";
 const Sponsers = () => {
   return (
     <Section id="sponsors" className={"mt-10"}>
@@ -15,15 +14,22 @@ const Sponsers = () => {
           <div className="flex flex-1 flex-col md:flex-row items-center gap-14 pt-[5px]">
             <div className="rounded-lg">
               <img
-                src={aws_group}
-                alt="aws_group"
+                src={aws}
+                alt="AWS"
                 className=" rounded-full w-full"
               />
             </div>
             <div>
               <img
-                src={cloud_academy}
-                alt="aws_group"
+                src={cody}
+                alt="Cody"
+                className=" rounded-full w-full"
+              />
+            </div>
+            <div>
+              <img
+                src={sanchirtech}
+                alt="Sanchirtech"
                 className=" rounded-full w-full"
               />
             </div>
