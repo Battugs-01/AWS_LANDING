@@ -20,19 +20,22 @@ import chromecast from "./chrome-cast.svg";
 import sliders04 from "./sliders-04.svg";
 import loading from "./loading.png";
 import background from "./background.jpg";
+import gameday from "./gameday.webp";
 
 import awsLogo from "./speakers/aws_logo.svg";
-import jiguur from "./speakers/jiguur.jpg";
-import tuguldur from "./speakers/tuguldur.jpg";
-import aleksandr from "./speakers/aleksandr.jpeg";
-import tuvshin from "./speakers/tuvshin.jpeg";
-import nary from "./speakers/nary.jpg";
-import viktor from "./speakers/viktor.jpeg";
-import batulzii from "./speakers/batulzii.png";
-import zolboo from "./speakers/zolboo.jpeg";
-import guillermo from "./speakers/guillermo.jpeg";
-import purevdondov from "./speakers/purevdondov.png";
-import anton from "./speakers/anton.jpg";
+import jiguur from "./speakers/jiguur.webp";
+import tuguldur from "./speakers/tuguldur.webp";
+import aleksandr from "./speakers/aleksandr.webp";
+import tuvshin from "./speakers/tuvshin.webp";
+import nary from "./speakers/nary.webp";
+import viktor from "./speakers/viktor.webp";
+import batulzii from "./speakers/batulzii.webp";
+import zolboo from "./speakers/zolboo.webp";
+import guillermo from "./speakers/guillermo.webp";
+import erdenebileg from "./speakers/erdenebileg.webp";
+import purevdondov from "./speakers/purevdondov.webp";
+import anton from "./speakers/anton.webp";
+import gundsambuu from "./speakers/gundsambuu.webp";
 import linkeden2 from "./speakers/linkeden2.png";
 import defualtAvatar from "./speakers/defualt-avatar.jpg";
 import defualtAvatar2 from "./speakers/defualt-avatar2.jpg";
@@ -78,5 +81,8 @@ export {
   loading,
   background,
   aleksandr,
-  tuvshin
+  tuvshin,
+  erdenebileg,
+  gundsambuu,
+  gameday
 };

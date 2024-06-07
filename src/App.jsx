@@ -6,6 +6,7 @@ import Speakers from "./components/Speakers";
 import Sponsers from "./components/Sponsers";
 import About from "./components/about";
 import FAQ from "./components/faq";
+import Gameday from "./components/gameday";
 import OrgTeam from "./components/organizing";
 import Schedules from "./components/schedule";
 
@@ -19,6 +20,7 @@ const App = () => {
         <Speakers />
         <OrgTeam />
         <Schedules />
+        <Gameday />
         <Sponsers />
         <FAQ />
         <Footer />

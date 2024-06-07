@@ -1,4 +1,4 @@
-import { anton, batulzii, guillermo, nary, jiguur, tuguldur, purevdondov, viktor, zolboo, aleksandr, tuvshin } from "../assets";
+import { anton, batulzii, guillermo, gundsambuu, nary, jiguur, tuguldur, purevdondov, viktor, zolboo, aleksandr, tuvshin, erdenebileg } from "../assets";
 
 export const navigation = [
   {
@@ -94,6 +94,20 @@ export const speakers = [
     position: "GenAI Developer of Rio Tinto",
     backgroundUrl: tuvshin,
     linkeden: "https://www.linkedin.com/in/tuvshinot/",
+  },
+  {
+    id: "8",
+    name: "Erdenebileg Chinchuluun",
+    position: "CTO of Tapatrip",
+    backgroundUrl: erdenebileg,
+    linkeden: "https://www.linkedin.com/in/erdenebileg-chinchuluun-37851847/",
+  },
+  {
+    id: "9",
+    name: "Gundsambuu Natsagdorj",
+    position: "CTO of Cody LLC",
+    backgroundUrl: gundsambuu,
+    linkeden: "https://www.linkedin.com/in/gundsambuu/",
   },
 ];
 
