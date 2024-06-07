@@ -16,7 +16,7 @@ const Gameday = () => {
             Gameday Competition
           </p>
         </div>
-        <div className="flex flex-col gap-4 bg-gradient pt-5 md:flex-row mt-20">
+        <div className="flex flex-col gap-4 pt-5 md:flex-row mt-20">
 
           <div
             className="!text-gray-100 leading-[150%] flex flex-col gap-8 pb-4 px-4 md:w-full font-medium"
