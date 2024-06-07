@@ -172,7 +172,7 @@ const Schedules = () => {
                   </p>
                 </div>
                 <p className="text-lg text-white  flex text-left  items-center md:col-span-3 col-span-4 pl-2">
-                  Alexandr Bernadskiy - Solutions Architect of AWS  Frontend development
+                Building GenAI apps with Amazon Bedrock | Alexandr Bernadskiy - Solutions Architect of AWS  Frontend development
                 </p>
               </div>
               <div className="border-b border-white w-full"></div>
