@@ -10,7 +10,7 @@ const Schedules = () => {
   return (
     <div
       className="container mx-auto py-32 gap-16 flex flex-col"
-      id="schudules"
+      id="schedules"
     >
       <div className="flex flex-col items-center gap-4 self-stretch md:px-5">
         <p className="text-[64px] bg-gradient2 bg-clip-text text-center !font-rockwell leading-[120%] !text-transparent">
