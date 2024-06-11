@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 const map_embed_uri =
-  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d620.7866809413832!2d106.9247364344413!3d47.92210367777561!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5d969240515d3557%3A0xc3affbfcce02c6ce!2sMongolian%20University%20of%20Science%20and%20Technology!5e0!3m2!1sen!2smn!4v1716905855401!5m2!1sen!2smn";
+  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2673.70784532005!2d106.91799447643817!3d47.922690166096835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5d9692422996a167%3A0xa82455bba2fd241a!2sE-Library%20of%20NUM%20(National%20University%20of%20Mongolia)!5e0!3m2!1sen!2smn!4v1718093418945!5m2!1sen!2smn";
 
 export default function Location() {
   return (
@@ -30,7 +30,7 @@ export default function Location() {
               </g>
             </svg>
             <p>ULAANBAATAR / MONGOLIA</p>
-            <p className="text-white">"Mongolian University of Science and Technology"</p>
+            <p className="text-white">"National University of Mongolia"</p>
           </div>
         </div>
         <div className="relative h-[200px] xl:h-[400px] xl:flex-[3] rounded-sm">
